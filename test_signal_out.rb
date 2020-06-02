@@ -1,3 +1,10 @@
+=begin
+AT+IPR=115200
+AT+BAND=868500000
+AT+ADDRESS=1
+AT+NETWORKID=1
+=end
+
 module GPIO
   require 'rpi_gpio'
   PIN_NUM = 5
